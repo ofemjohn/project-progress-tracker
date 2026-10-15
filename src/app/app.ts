@@ -2,9 +2,11 @@ import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MilestoneTracker } from './milestone-tracker/milestone-tracker';
 import { ProgressNotes } from './progress-notes/progress-notes';
+import { ProjectOverview } from './project-overview/project-overview';
+import { TechnologyChecklist } from './technology-checklist/technology-checklist';
 
 @Component({
-  imports: [RouterOutlet, MilestoneTracker, ProgressNotes],
+  imports: [RouterOutlet, MilestoneTracker, ProgressNotes, ProjectOverview, TechnologyChecklist],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
